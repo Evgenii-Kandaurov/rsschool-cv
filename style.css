@@ -1,4 +1,121 @@
-   body{
-    text-align: center;
-    text-decoration: none;
-   }
+html {
+   height: 100%;
+}
+
+body{
+   min-height: 100%;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   font-family: Arial, 'Times New Roman', Times, serif;
+}
+
+header{
+   width: 70%;
+   flex: 0 0 40px;
+   background-color: white;
+}
+
+.navBar{
+   display: flex;
+   justify-content: space-around;
+   background-color: white;
+
+   
+   
+}
+
+
+.navBar-input {
+margin-top: 1%;
+color: black;
+font-weight: 600;
+text-decoration: none;
+}
+
+main{
+   flex:1 1 auto;
+   width: 70%;
+   background-color: rgb(31, 29, 29);
+   display: flex;
+}
+
+.main-discription {
+   flex:1 1 auto;
+   background-color: rgb(105, 105, 105);
+   display: flex;
+   flex-direction: column;
+   width: 20%;
+   align-items: left;
+
+}
+
+.main-discription-header{
+   color: white;
+   margin: 0;
+   text-align: center;
+   background: linear-gradient(to right, yellow 5%, grey 5%);
+   
+} 
+.main-discription-paragraph{
+   color: white;
+   text-align: left;
+   box-sizing: border-box;
+   margin: 5px;
+   padding-left: 5%;
+}       
+
+
+.main-right-side{
+flex: 5 1 auto;
+background-color:white;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+justify-content: center;
+padding-left: 5%;
+padding-right: 30%;
+font-family: Arial, 'Times New Roman', Times, serif;
+font-weight: 600;
+
+}
+
+
+.main-right-side-h1{
+   margin: 0;
+}
+
+
+footer{
+   flex: 0 0 100px;
+   background-color: rgb(87, 85, 85);
+   width: 70%;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+h2{
+   font-weight: 900;
+   margin-top: 35%;
+   margin-bottom: 0;
+}
+.site-footer-link a{
+   display: block;
+   color:white;
+   width: 86px;
+   height: 32px;
+}
+
+
+.gitHub{
+   color: white;
+}
+
+a:hover{
+   text-decoration: underline;
+   color: red;
+   text-transform: uppercase;
+}
